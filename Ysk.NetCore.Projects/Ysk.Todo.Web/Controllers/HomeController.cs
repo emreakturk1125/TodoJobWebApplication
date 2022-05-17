@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
+using Ysk.Todo.Business.Abstract;
 using Ysk.Todo.Dto.DTOs.AppUserDto;
 using Ysk.Todo.Entities.Concrete;
 using Ysk.Todo.Web.BaseController;
@@ -12,11 +13,13 @@ namespace Ysk.Todo.Web.Controllers
     public class HomeController : BaseIdentityController
     { 
         private readonly SignInManager<AppUser> _signInManager;
+        private readonly ICustomLogger _logger;
         private readonly IMapper _mapper;
-        public HomeController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, IMapper mapper) : base(userManager)
+        public HomeController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, IMapper mapper, ICustomLogger logger) : base(userManager)
         {
             _signInManager = signInManager;
             _mapper = mapper;
+            _logger = logger;   
         }
         public IActionResult Index()
         {
@@ -114,7 +117,7 @@ namespace Ysk.Todo.Web.Controllers
         {
             var exceptionHandler = HttpContext.Features.Get<IExceptionHandlerPathFeature>();
 
-          //  _customLogger.LogError($"Hatanın oluştuğu yer :{exceptionHandler.Path}\nHatanın mesajı :{exceptionHandler.Error.Message}\nStack Trace :{exceptionHandler.Error.StackTrace}");
+          _logger.LogError($"Hatanın oluştuğu yer :{exceptionHandler.Path}\nHatanın mesajı :{exceptionHandler.Error.Message}\nStack Trace :{exceptionHandler.Error.StackTrace}");
 
             ViewBag.Path = exceptionHandler.Path;
             ViewBag.Message = exceptionHandler.Error.Message;

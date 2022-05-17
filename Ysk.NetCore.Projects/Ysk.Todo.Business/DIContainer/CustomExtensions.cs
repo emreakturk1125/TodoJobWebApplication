@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Text;
 using Ysk.Todo.Business.Abstract;
 using Ysk.Todo.Business.Concrete;
+using Ysk.Todo.Business.CustomLogger;
 using Ysk.Todo.DataAccess.Abstract;
 using Ysk.Todo.DataAccess.Concrete.EntityFramework.Repositories;
 
@@ -25,6 +26,8 @@ namespace Ysk.Todo.Business.DIContainer
             services.AddScoped<IReportDal, EfReportRepository>();
             services.AddScoped<IAppUserDal, EfAppUserRespository>();
             services.AddScoped<INotificationDal, EfNotificationRepository>();
+
+            services.AddScoped<ICustomLogger, NLogLogger>();
         }
     }
 }

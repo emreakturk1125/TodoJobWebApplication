@@ -42,7 +42,7 @@ namespace Ysk.Todo.Web
          
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env, UserManager<AppUser> userManager, RoleManager<AppRole> roleManager)
         {
-            if (env.IsDevelopment())
+            if (false)
             {
                 // (Development) hatayı sayfaya basar
                 app.UseDeveloperExceptionPage();

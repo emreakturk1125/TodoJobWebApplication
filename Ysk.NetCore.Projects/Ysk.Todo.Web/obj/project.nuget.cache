@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "m2tQzU/2LVH1KPXGiANkE0evBHZ4l2d7PpnSq3fVmYGpL/Huuy/qOvny6ovYu6cigK2QHjZ0CagdlgyLF8cdiw==",
+  "dgSpecHash": "ku5oN/M7Ov7xbja+gXeU2SXAgiZQl4GscIjCvh8JDS9LhZ7L9nGQoJaSozXyVRhCcv5KefeLl1jpXrAuTs4Osw==",
   "success": true,
   "projectFilePath": "C:\\Users\\aktur\\Documents\\GitHub\\TodoJobWebApplication\\Ysk.NetCore.Projects\\Ysk.Todo.Web\\Ysk.Todo.Web.csproj",
   "expectedPackageFiles": [
@@ -92,6 +92,9 @@
     "C:\\Users\\aktur\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\aktur\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\aktur\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512",
+    "C:\\Users\\aktur\\.nuget\\packages\\nlog\\5.0.0\\nlog.5.0.0.nupkg.sha512",
+    "C:\\Users\\aktur\\.nuget\\packages\\nlog.config\\4.7.15\\nlog.config.4.7.15.nupkg.sha512",
+    "C:\\Users\\aktur\\.nuget\\packages\\nlog.schema\\4.7.15\\nlog.schema.4.7.15.nupkg.sha512",
     "C:\\Users\\aktur\\.nuget\\packages\\nuget.frameworks\\4.7.0\\nuget.frameworks.4.7.0.nupkg.sha512",
     "C:\\Users\\aktur\\.nuget\\packages\\portable.bouncycastle\\1.8.9\\portable.bouncycastle.1.8.9.nupkg.sha512",
     "C:\\Users\\aktur\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.2\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.2.nupkg.sha512",

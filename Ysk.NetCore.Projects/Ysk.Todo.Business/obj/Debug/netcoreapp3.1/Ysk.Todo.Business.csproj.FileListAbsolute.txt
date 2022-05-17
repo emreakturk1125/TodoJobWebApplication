@@ -64,3 +64,4 @@ C:\Users\aktur\Documents\GitHub\TodoJobWebApplication\Ysk.NetCore.Projects\Ysk.T
 C:\Users\aktur\Documents\GitHub\TodoJobWebApplication\Ysk.NetCore.Projects\Ysk.Todo.Business\obj\Debug\netcoreapp3.1\Ysk.Todo.Business.csproj.CopyComplete
 C:\Users\aktur\Documents\GitHub\TodoJobWebApplication\Ysk.NetCore.Projects\Ysk.Todo.Business\obj\Debug\netcoreapp3.1\Ysk.Todo.Business.dll
 C:\Users\aktur\Documents\GitHub\TodoJobWebApplication\Ysk.NetCore.Projects\Ysk.Todo.Business\obj\Debug\netcoreapp3.1\Ysk.Todo.Business.pdb
+C:\Users\aktur\Documents\GitHub\TodoJobWebApplication\Ysk.NetCore.Projects\Ysk.Todo.Business\bin\Debug\netcoreapp3.1\NLog.config
