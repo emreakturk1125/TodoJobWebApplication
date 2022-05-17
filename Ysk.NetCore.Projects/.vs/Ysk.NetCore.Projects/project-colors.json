@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "51ac6dd0-6aa4-4946-a2ef-107a825ac3e4": {
+      "ProjectGuid": "51ac6dd0-6aa4-4946-a2ef-107a825ac3e4",
+      "DisplayName": "Ysk.Todo.Web",
+      "ColorIndex": 0
+    },
+    "32bf8f40-d17f-4ce2-9595-a06e8616b05e": {
+      "ProjectGuid": "32bf8f40-d17f-4ce2-9595-a06e8616b05e",
+      "DisplayName": "Ysk.Todo.DataAccess",
+      "ColorIndex": 1
+    },
+    "a324b9e5-00f9-40d9-85f9-daa8a0bc4dd5": {
+      "ProjectGuid": "a324b9e5-00f9-40d9-85f9-daa8a0bc4dd5",
+      "DisplayName": "Ysk.Todo.Entities",
+      "ColorIndex": 2
+    },
+    "c32412a3-4fd5-4d45-bdd8-70df8c2111d8": {
+      "ProjectGuid": "c32412a3-4fd5-4d45-bdd8-70df8c2111d8",
+      "DisplayName": "Ysk.Todo.Dto",
+      "ColorIndex": 3
+    },
+    "a6b44b54-7210-4a22-8bbb-d28850883cab": {
+      "ProjectGuid": "a6b44b54-7210-4a22-8bbb-d28850883cab",
+      "DisplayName": "Ysk.Todo.Business",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 5
+}

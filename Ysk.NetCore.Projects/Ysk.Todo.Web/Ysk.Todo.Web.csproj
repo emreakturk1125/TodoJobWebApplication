@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Areas\Admin\Models\TaskAddViewModel.cs" />
+    <Compile Remove="Areas\Admin\Models\TaskListViewModel.cs" />
+    <Compile Remove="Areas\Admin\Models\TaskUpdateViewModel.cs" />
+    <Compile Remove="Areas\Admin\Models\UrgencyAddViewModel.cs" />
+    <Compile Remove="Areas\Admin\Models\UrgencyListViewModel.cs" />
+    <Compile Remove="Areas\Admin\Models\UrgencyUpdateViewModel.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ysk.Todo.Business\Ysk.Todo.Business.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Member\Models\" />
+    <Folder Include="Models\" />
+    <Folder Include="wwwroot\img\" />
+    <Folder Include="wwwroot\documents\" />
+    <Folder Include="wwwroot\Template2\startbootstrap-simple-sidebar-gh-pages %281%29\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.5" />
+  </ItemGroup>
+
+</Project>

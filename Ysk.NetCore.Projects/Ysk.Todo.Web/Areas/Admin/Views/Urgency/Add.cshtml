@@ -1,0 +1,21 @@
+﻿@model UrgencyAddDto
+
+@{
+    ViewData["Title"] = "Add";
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form class="w-75 mx-auto p-3" method="post">
+    <div class="form-group">
+        <label asp-for="Description">Tanım :</label>
+        <input class="form-control" type="text" asp-for="Description" />
+        <span class="text-danger" asp-validation-for="Description"></span>
+    </div>
+    <button class="btn btn-info btn-sm my-2" type="submit"><i class="fas fa-check mr-2"></i> Kaydet</button>
+</form>
+
+@section javascript{
+
+    <script src="~/lib/jqueryValidate/jquery.validate.min.js"></script>
+    <script src="~/lib/jqueryUnob/jquery.validate.unobtrusive.min.js"></script>
+}

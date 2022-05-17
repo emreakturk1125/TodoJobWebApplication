@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "azYv1NA+l63036tuLquhN7Y8GttAwUX+GHixefOP7urJDqFAuYCdZKvBOEBtJeJXh3ncHWbKu/ufzlUMpWuQJw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\aktur\\source\\repos\\Ysk.NetCore.Projects\\Ysk.NetCore.Projects\\Ysk.Ajax.Web\\Ysk.Ajax.Web.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aktur\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\aktur\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\aktur\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

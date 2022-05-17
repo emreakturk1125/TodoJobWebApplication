@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EPPlus" Version="6.0.3" />
+    <PackageReference Include="FastMember" Version="1.5.0" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.0.0" />
+    <PackageReference Include="iTextSharp.LGPLv2.Core" Version="1.7.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ysk.Todo.DataAccess\Ysk.Todo.DataAccess.csproj" />
+    <ProjectReference Include="..\Ysk.Todo.Dto\Ysk.Todo.Dto.csproj" />
+  </ItemGroup>
+
+</Project>
