@@ -54,6 +54,9 @@ namespace Ysk.Todo.Web.Mapping.AutoMapperProfile
 
             CreateMap<ReportUpdateDto, Report>();
             CreateMap<Report, ReportUpdateDto>();
+
+            CreateMap<ReportFileDto, Report>();
+            CreateMap<Report, ReportFileDto>();
         }
     }
 }

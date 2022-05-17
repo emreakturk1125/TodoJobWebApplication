@@ -8,6 +8,7 @@ using System.Linq;
 using Ysk.Todo.Business.Abstract;
 using Ysk.Todo.Dto.DTOs.AppUserDto;
 using Ysk.Todo.Dto.DTOs.PersonalDto;
+using Ysk.Todo.Dto.DTOs.ReportDto;
 using Ysk.Todo.Dto.DTOs.TaskDto;
 using Ysk.Todo.Entities.Concrete;
 using Ysk.Todo.Web.BaseController;
@@ -55,12 +56,19 @@ namespace Ysk.Todo.Web.Areas.Admin.Controllers
 
         public IActionResult GetExcel(int id)
         {
-            return File(_fileService.ToExcel(_taskService.GetReportsById(id).Reports), "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", Guid.NewGuid() + ".xlsx");
+            var list = _mapper.Map<List<ReportFileDto>>(_taskService.GetReportsById(id).Reports);
+
+            var content = _fileService.ToExcel(list);
+
+            return File(content, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", Guid.NewGuid() + ".xlsx");
         }
         public IActionResult GetPdf(int id)
         {
-            var path = _fileService.ToPdf(_taskService.GetReportsById(id).Reports);
-            return File(path, "application/pdf", Guid.NewGuid() + ".pdf");
+            var list = _mapper.Map<List<ReportFileDto>>(_taskService.GetReportsById(id).Reports);
+
+            var virtualPath = _fileService.ToPdf(list);
+             
+            return File(virtualPath, "application/pdf", Guid.NewGuid() + ".pdf");
         }
         public IActionResult AssignPersonal(int id, string s, int page = 1)
         {
