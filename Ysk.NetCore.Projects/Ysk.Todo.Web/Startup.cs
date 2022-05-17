@@ -44,11 +44,13 @@ namespace Ysk.Todo.Web
         {
             if (env.IsDevelopment())
             {
+                // (Development) hatayı sayfaya basar
                 app.UseDeveloperExceptionPage();
             }
             else
             {
-                app.UseExceptionHandler("/Error");
+                // (Production) Hata durumunda gösterilecek hata sayfası
+                app.UseExceptionHandler("/Home/Error");
             }
 
             app.UseStaticFiles();

@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
@@ -106,6 +107,24 @@ namespace Ysk.Todo.Web.Controllers
             }
 
             return View();
+        }
+
+
+        public IActionResult Error()
+        {
+            var exceptionHandler = HttpContext.Features.Get<IExceptionHandlerPathFeature>();
+
+          //  _customLogger.LogError($"Hatanın oluştuğu yer :{exceptionHandler.Path}\nHatanın mesajı :{exceptionHandler.Error.Message}\nStack Trace :{exceptionHandler.Error.StackTrace}");
+
+            ViewBag.Path = exceptionHandler.Path;
+            ViewBag.Message = exceptionHandler.Error.Message;
+
+            return View();
+        }
+
+        public IActionResult ErrorTesting()
+        {
+            throw new System.Exception("bu bir hatadır");
         }
 
     }

@@ -809,3 +809,4 @@ C:\Users\aktur\Documents\GitHub\TodoJobWebApplication\Ysk.NetCore.Projects\Ysk.T
 C:\Users\aktur\Documents\GitHub\TodoJobWebApplication\Ysk.NetCore.Projects\Ysk.Todo.Web\obj\Debug\netcoreapp3.1\Ysk.Todo.Web.pdb
 C:\Users\aktur\Documents\GitHub\TodoJobWebApplication\Ysk.NetCore.Projects\Ysk.Todo.Web\obj\Debug\netcoreapp3.1\Ysk.Todo.Web.genruntimeconfig.cache
 C:\Users\aktur\Documents\GitHub\TodoJobWebApplication\Ysk.NetCore.Projects\Ysk.Todo.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\StatusCode.cshtml.g.cs
+C:\Users\aktur\Documents\GitHub\TodoJobWebApplication\Ysk.NetCore.Projects\Ysk.Todo.Web\obj\Debug\netcoreapp3.1\Razor\Views\Home\Error.cshtml.g.cs
