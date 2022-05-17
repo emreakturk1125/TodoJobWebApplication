@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TLfUlfuUxicfCoxx5FYxzRN8/yXZX9iQ1NbumYDo23NVD8tVUZb6xH8ynEeDqt3XRKKxuLWqrTY7S61CUYnv6Q==",
+  "dgSpecHash": "cOUApthJss/6NwoyYV1FEFrxaODPjII2Vpmfvm9Zp4NKjfUS4VKzRtlVoETJ4+6T9j5o3PXITpKeQViOjiYKtA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aktur\\source\\repos\\Ysk.NetCore.Projects\\Ysk.NetCore.Projects\\Ysk.Todo.Business\\Ysk.Todo.Business.csproj",
+  "projectFilePath": "C:\\Users\\aktur\\Documents\\GitHub\\TodoJobWebApplication\\Ysk.NetCore.Projects\\Ysk.Todo.Business\\Ysk.Todo.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aktur\\.nuget\\packages\\epplus\\6.0.3\\epplus.6.0.3.nupkg.sha512",
     "C:\\Users\\aktur\\.nuget\\packages\\epplus.interfaces\\6.0.0\\epplus.interfaces.6.0.0.nupkg.sha512",

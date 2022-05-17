@@ -97,6 +97,16 @@ namespace Ysk.Todo.Web.Controllers
             return RedirectToAction("Index");
         }
 
-        
+        public IActionResult StatusCode(int? code)
+        {
+            if (code == 404)
+            {
+                ViewBag.Code = code;
+                ViewBag.Message = "Sayfa bulunamadı.";
+            }
+
+            return View();
+        }
+
     }
 }

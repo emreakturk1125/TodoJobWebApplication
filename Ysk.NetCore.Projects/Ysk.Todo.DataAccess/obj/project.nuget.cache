@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xsS0vXpav3VUodwjwT4gnJmtVcraettB+MUuSbIuOXbxQchCYbLxnnJ/irtzybGfrKDxaNKKa+lfmXw127ea0A==",
+  "dgSpecHash": "OyO1gOlvyNngWBk8KIefSZipV2BMq40ATQ4qO9RQIwGP6IEhukw2yCB3bPeji75kdTz8H4n+0Ry02hQz69Ojlw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aktur\\source\\repos\\Ysk.NetCore.Projects\\Ysk.NetCore.Projects\\Ysk.Todo.DataAccess\\Ysk.Todo.DataAccess.csproj",
+  "projectFilePath": "C:\\Users\\aktur\\Documents\\GitHub\\TodoJobWebApplication\\Ysk.NetCore.Projects\\Ysk.Todo.DataAccess\\Ysk.Todo.DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aktur\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\aktur\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",

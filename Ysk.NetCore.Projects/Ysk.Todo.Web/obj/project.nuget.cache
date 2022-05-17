@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J4kM/L2EV4D3KkFO7BhzCpHcgZBGp2VtY1gRBPApi3NaK/vtxE6a1HJ96d2j8TzxroRpYMmrn2TYm3kCOOHx3A==",
+  "dgSpecHash": "m2tQzU/2LVH1KPXGiANkE0evBHZ4l2d7PpnSq3fVmYGpL/Huuy/qOvny6ovYu6cigK2QHjZ0CagdlgyLF8cdiw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aktur\\source\\repos\\Ysk.NetCore.Projects\\Ysk.NetCore.Projects\\Ysk.Todo.Web\\Ysk.Todo.Web.csproj",
+  "projectFilePath": "C:\\Users\\aktur\\Documents\\GitHub\\TodoJobWebApplication\\Ysk.NetCore.Projects\\Ysk.Todo.Web\\Ysk.Todo.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aktur\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\aktur\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

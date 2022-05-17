@@ -53,6 +53,9 @@ namespace Ysk.Todo.Web
 
             app.UseStaticFiles();
 
+            // Hata sayfası ayarı, useRouting'den önce olmalıdır
+            app.UseStatusCodePagesWithReExecute("/Home/StatusCode", "?code={0}");
+
             app.UseRouting();
 
             app.UseAuthentication();  
